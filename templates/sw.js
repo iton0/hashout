@@ -1,14 +1,14 @@
-// static/service-worker.js
-
-const CACHE_NAME = 'my-django-pwa-cache-v1';
+const CACHE_NAME = 'hashout-pwa-cache-v1';
 const urlsToCache = [
     '/',
-    '/static/css/style.css', // Example: if you have a stylesheet
-    '/static/js/main.js',   // Example: if you have a JS file
-    '/static/manifest.json',
-    '/static/images/icon-192x192.png',
-    '/static/images/icon-512x512.png'
-    // Add all static assets you want to cache
+    // You'll need to add paths to your app's actual CSS/JS/images here.
+    // For now, let's assume you'll create these later.
+    // Example: '/static/myapp/css/style.css', if you put app CSS there.
+    // Example: '/static/myapp/js/script.js', if you put app JS there.
+    // '/static/images/icon-192x192.png',
+    // '/static/images/icon-512x512.png',
+    // '/static/images/maskable_icon.png',
+    // '/static/manifest.json'
 ];
 
 self.addEventListener('install', event => {

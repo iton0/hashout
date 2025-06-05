@@ -1,0 +1,11 @@
+{
+    "name": "Hashout PWA",
+    "short_name": "Hashout",
+    "description": "Cryptographic file sharing PWA",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#000000",
+    "icons": [
+    ]
+}
